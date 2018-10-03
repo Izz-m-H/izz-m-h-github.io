@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+}
+
+
+body{	
+	background: url(https://i.pinimg.com/originals/10/e0/3e/10e03e9616fcf300b3cac15a469a3c68.jpg);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+h2 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.container, .row.justify-content-center.align-items-center {
+  height: 120%;
+  min-height: 50%;
+  display: flex;
+  justify-content: center;
+ /* align-items: center;*/
+}
+
+.btn {
+   font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: #ee4b08;
+  border-color: #ee4b08; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+
+
+./*btn {
+  background-color: black;
+  border-color: #ee4b08;
+  border-width: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+*/
+}
+
+/*
+.btn-xl {
+  padding: 1rem 2rem;
+ /* position: relative;*/
+}
+
+/*
+.btn:hover{
+  background-color: #ee4b08;
+  border-color: black;
+  border-width: 5px;
+  cursor: pointer;
+}*/*/
